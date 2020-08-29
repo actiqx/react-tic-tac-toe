@@ -1,0 +1,25 @@
+.square {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  font-size: 10vh;
+  &.X {
+    color: #fff;
+    font-weight: 700;
+  }
+  &.O {
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.square:not(:nth-child(3n)) {
+  border-right: 2px dashed #ffffff4a;
+}
+
+.square:not(:nth-last-child(-n + 3)) {
+  border-bottom: 2px dashed #ffffff4a;
+}

@@ -1,0 +1,2 @@
+export const SAVE_PLAYER_NAME = "SAVE_PLAYER_NAME";
+export const ADD_PLAYER_WIN = "ADD_PLAYER_WIN";
